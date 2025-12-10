@@ -15,6 +15,7 @@ This toolchain enables execution of offensive and diagnostic tooling in highly r
 ###   100% AppLocker Bypass
 All payloads run **in-memory via Java**, not as external executables.  
 This completely bypasses Applocker and application control policies.
+Even if policy does not allow to run EXE, MSI, .ps1, etc and allows to run java we can run artitaty EXE inside memroy.
 
 ###   Loader-Level EDR Bypass
 The JSI Loader:
