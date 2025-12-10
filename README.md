@@ -10,13 +10,13 @@ This toolchain enables execution of offensive and diagnostic tooling in highly r
 
 ---
 
-## 🚀 Key Capabilities
+##   Key Capabilities
 
-### ✔ 100% AppLocker Bypass
+###   100% AppLocker Bypass
 All payloads run **in-memory via Java**, not as external executables.  
 This completely bypasses Applocker and application control policies.
 
-### ✔ Loader-Level EDR Bypass
+###   Loader-Level EDR Bypass
 The JSI Loader:
 
 - Allocates RWX memory via JNA  
@@ -24,11 +24,10 @@ The JSI Loader:
 - Executes it inside the Java process  
 - Avoids EXE creation events and many user‑mode hooks  
 
-⚠ Detection depends on the payload itself, but the loader stage reliably evades most EDR heuristics.
-
+⚠ 
 ---
 
-## 🧪 Supported Payloads
+##   Supported Payloads
 
 Not every EXE converts cleanly into Donut shellcode.  
 However, the following have been fully validated to work:
@@ -40,7 +39,7 @@ However, the following have been fully validated to work:
 
 ---
 
-## 🔨 Payload Generation Example (Donut)
+##   Payload Generation Example (Donut)
 
 Real payload creation example:
 
@@ -60,7 +59,7 @@ Breakdown:
 
 ---
 
-## 🧱 Components
+##   Components
 
 ### **1. MakePayload.bat — Donut Wrapper**
 Simplifies Donut usage by providing:
@@ -117,7 +116,7 @@ Notes:
 
 ---
 
-## 📁 Project Structure
+##   Project Structure
 
 ```
 /projectx/
