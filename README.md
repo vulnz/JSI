@@ -8,6 +8,9 @@
 
 This toolchain enables execution of offensive and diagnostic tooling in highly restricted environments, achieving **100% AppLocker bypass** and **loader-level EDR evasion**.
 
+
+<img width="928" height="631" alt="image" src="https://github.com/user-attachments/assets/5fa7e1ce-6592-49db-9b76-fefa43a40812" />
+
 ---
 
 ##   Key Capabilities
